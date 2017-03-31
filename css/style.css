@@ -1,0 +1,40 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url("/img/fon2.jpg"); }
+
+h1 {
+  padding: 0;
+  margin: 0; }
+
+#player {
+  width: 10vw;
+  height: 15vh;
+  background: url("/img/player.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; }
+
+#cursor {
+  content: '';
+  background: white;
+  width: 1px;
+  height: 500px;
+  display: block;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%) rotate(90deg);
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5; }
