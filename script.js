@@ -321,7 +321,7 @@ function Update() {
 function CreateZomby(count) {
 
     for (var  i=0;i<count;i++){
-        zombies[i]= new TEasyZomby(i,60,70,0.3,2,"../img/slow4_a.png");
+        zombies[i]= new TEasyZomby(i,60,70,0.3,2,"img/slow4_a.png");
         zombies[i].Create();
     }
 
