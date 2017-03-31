@@ -8,7 +8,7 @@ html, body {
 .container {
   width: 100vw;
   height: 100vh;
-  background: url("test/img/fon2.jpg"); }
+  background: url("/../img/fon2.jpg"); }
 
 h1 {
   padding: 0;
@@ -17,7 +17,7 @@ h1 {
 #player {
   width: 10vw;
   height: 15vh;
-  background: url("test/img/player.png");
+  background: url("/../img/player.png");
   background-size: cover;
   background-position: center;
   position: absolute;
